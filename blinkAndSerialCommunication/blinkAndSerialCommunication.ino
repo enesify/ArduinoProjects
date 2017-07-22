@@ -18,6 +18,9 @@
   
   modified 8 Sep 2016
   by Colby Newman
+
+  modified 22 Jul 2017
+  by Enes Batur
 */
 
 
@@ -33,9 +36,8 @@ void setup() {
 void loop() {
   Serial.println("on");
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(2000);
-  Serial.println("off");
-  // wait for a second
+  delay(2000);// wait for two seconds
+  Serial.println("off");  
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(2000);                       // wait for a second
+  delay(2000);                       // wait for two seconds
 }
